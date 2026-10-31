@@ -21,6 +21,9 @@ This module governs the complete sales quotation lifecycle and subscription stat
 6. **Audit Trail & Timeline**:
    - Every status transition writes to `SubscriptionStatusHistory` recording the author, timestamp, previous status, and rationale.
 
+### Contributor
+- **Module Contributor**: Jayatheerthan P (@Jayatheerthan24) - Member 3 (Quotations, Templates & Subscription Lifecycle)
+
 ### Directory Structure
 ```
 members/member3/
