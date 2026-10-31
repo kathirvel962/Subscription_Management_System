@@ -1,3 +1,4 @@
+
 # MEMBER 2: PRODUCT, PLAN, TAX AND DISCOUNT MANAGEMENT MODULE
 ## Brightloop Software — Subscription Management System
 
@@ -21,6 +22,9 @@ This module implements the complete catalog and pricing engine for Brightloop So
    - Percentage vs Fixed amount discounts.
    - Threshold checks: Minimum purchase amount, minimum item quantity, start/end date, maximum usage counters.
    - Rejection of exhausted or expired coupons.
+
+### Contributor
+- **Module Contributor**: Kishore K (@kkishore07) - Member 2 (Products, Plans, Taxes & Discounts)
 
 ### Directory Structure
 ```
