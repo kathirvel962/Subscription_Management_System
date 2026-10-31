@@ -8,6 +8,9 @@ Member 4 owns the financial engine and live analytics for **Brightloop Software*
 4. **PDF Invoice Generation**: Generates compliant downloadable PDF invoices using PDFKit, complete with corporate credentials, line items, and audit trails.
 5. **Live Finance & Growth Dashboard**: Real-time aggregation of MRR, ARR, cash flow velocity, aging accounts receivable, and revenue projections.
 
+### Contributor
+- **Module Contributor**: Member 4 (Recurring Billing, Invoices, Payments & Financial Analytics)
+
 ## Folder Structure
 ```
 members/member4/
