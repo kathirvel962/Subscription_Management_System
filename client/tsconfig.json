@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../dist/client",
+    "rootDir": "..",
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src/**/*",
+    "../shared/**/*",
+    "../members/**/frontend/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "../dist",
+    "../server",
+    "../members/**/backend/**/*"
+  ]
+}

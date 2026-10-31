@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["shared/*"],
+      "@members/*": ["members/*"],
+      "@server/*": ["server/src/*"],
+      "@client/*": ["client/src/*"]
+    }
+  },
+  "include": [
+    "shared/**/*",
+    "members/**/*",
+    "server/**/*",
+    "client/**/*",
+    "prisma/**/*"
+  ],
+  "exclude": ["node_modules", "dist", "client/dist"]
+}
